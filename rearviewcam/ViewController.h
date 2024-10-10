@@ -6,8 +6,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface ViewController : UIViewController
+
+@property IBOutlet UILabel *infoLabel;
+@property IBOutlet UIView *rearviewview;
+@property AVCaptureVideoPreviewLayer *rearview;
 
 
 @end
